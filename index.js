@@ -1,17 +1,5 @@
 'use strict';
 
-const getRandomInt = require('./app/random');
-let rolltotal = 0
-let rolls = [];
+const dice = require('./app/dice')
 
-for(let i=0; i<100; i++){
-    
-    rolls.push(getRandomInt(1,6))
-    
-    rolltotal += rolls[i]
-    
-
-}
-console.log(rolltotal/100)
-
-console.log(getRandomInt(1,6));
+console.log(dice(6));
