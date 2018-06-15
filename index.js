@@ -2,4 +2,4 @@
 
 const getRandomInt = require('./app/random');
 
-console.log(getRandomInt(1.6));
+console.log(getRandomInt(1,6));
