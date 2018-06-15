@@ -2,8 +2,8 @@
 
 const getRandomInt = require('./random');
 
-const roll = function(sides){
+const dice = function(sides){
     return getRandomInt(1,sides);
 }
 
-module.exports = roll;
+module.exports = dice;
