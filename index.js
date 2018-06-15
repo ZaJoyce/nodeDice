@@ -1,5 +1,5 @@
 'use strict';
 
-const dice = require('./app/dice')
+const roll = require('./app/roll')
 
-console.log(dice(6));
+console.log(roll(3,6));
