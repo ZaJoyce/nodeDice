@@ -9,7 +9,8 @@ let diceArray = diceString.split('d')
 let count = diceArray[0];
 let sides = diceArray[1];
 
+let results = roll(count, sides);
 
-console.log(diceArray);
+let sum = results.reduce((a, b)=>a + b, 0);
 
-console.log(roll(count, sides));
+console.log(results + ' ' + sum);
