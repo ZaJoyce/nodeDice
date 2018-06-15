@@ -15,5 +15,4 @@ let sum = app.total(results);
 
 console.log(results + ' ' + sum);
 
-// todo: refactor out total functionality
 // todo: add double checking function
