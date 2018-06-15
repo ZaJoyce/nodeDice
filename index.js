@@ -14,3 +14,6 @@ let results = roll(count, sides);
 let sum = results.reduce((a, b)=>a + b, 0);
 
 console.log(results + ' ' + sum);
+
+// todo: refactor out total functionality
+// todo: add double checking function
