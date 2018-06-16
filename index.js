@@ -14,5 +14,3 @@ if (app.double(results)) {
     console.log('Stunt!! ' + results[0])
 }
 console.log(sum);
-
-// todo: add double checking function
