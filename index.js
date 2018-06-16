@@ -16,4 +16,3 @@ let sum = app.total(results);
 console.log(results + ' ' + sum);
 
 // todo: add double checking function
-// test
