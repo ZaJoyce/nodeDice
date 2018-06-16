@@ -6,7 +6,7 @@ const double = require('./double');
 
 
 module.exports = {
-    roll, 
+    roll,
     total,
     double
 }
