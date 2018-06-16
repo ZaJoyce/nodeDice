@@ -1,6 +1,6 @@
 'use strict';
 
-const getRandomInt = require('./random');
+const getRandomInt = require('./getRandomInt');
 
 const dice = function(sides){
     return getRandomInt(1,sides);
