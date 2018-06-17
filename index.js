@@ -2,10 +2,12 @@
 
 const app = require('./app');
 
-let diceString = process.argv[2];
-let diceArray = diceString.split('d')
-let count = diceArray[0];
-let sides = diceArray[1];
+let diceString = process.argv[2] || '3d6';
+let diceArray = diceString.split(/d|D/);
+let count = diceArray[0]
+console.log(count);
+let sides = diceArray[1]
+console.log(sides);
 let results = app.roll(count, sides);
 let sum = app.total(results);
 
