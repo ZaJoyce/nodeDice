@@ -17,7 +17,7 @@ if (rolling.double(results)) {
 }
 console.log(
   `Roll: ${sum}
-Plus Modifier: ${modSum}`
+Plus Modifier (${diceObject.modifier}): ${modSum}`
 );
 
 //todo : add regex to handle dice notation

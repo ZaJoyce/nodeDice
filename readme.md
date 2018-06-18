@@ -6,9 +6,9 @@ this app takes dice notation as a parameter
 
 ### to use
 
-In terminal:    
+In terminal:
 
-```npm start 3d6```
+```npm start 3d6+3```
 
-where "3" is how many rolls and "6" is what type of die
+where "3" is how many rolls and "6" is what type of die and "+3" modifies the total.
 
