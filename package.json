@@ -8,5 +8,8 @@
     "start": "node index.js"
   },
   "author": "Zack Joyce",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jshint": "^2.9.5"
+  }
 }

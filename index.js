@@ -16,3 +16,5 @@ if (rolling.double(results)) {
   console.log('Stunt!! ' + results[0])
 }
 console.log(sum);
+
+//todo : add regex to handle dice notation
