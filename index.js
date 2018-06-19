@@ -3,7 +3,7 @@
 const rolling = require('./app/rolling/');
 const parseDiceString = require('./app/stringParse/parseDiceString');
 
-let diceString = process.argv[2] || '3d6';
+let diceString = process.argv[2] || '1d20';
 let diceObject = parseDiceString(diceString);
 
 //console.log(diceObject);
